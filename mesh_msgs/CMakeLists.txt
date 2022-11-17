@@ -27,6 +27,10 @@ add_message_files(
   VectorField.msg
   VectorFieldStamped.msg
   MeshVertexTexCoords.msg
+        TriangleMeshStamped.msg
+        TriangleIndices.msg
+        Material.msg
+        Cluster.msg
 )
 
 add_service_files(
